@@ -55,10 +55,10 @@ echo '<pre>';
 var_dump($result);
 echo '</pre>';
 */
-//$Arraycurso=explode(",",$data);
-//print_r($data);
-//foreach($Arraycurso as $d){
-	//echo $d;echo',';
-//}
+$Arraycurso=explode(",",$data);
+print_r($data);
+foreach($Arraycurso as $d){
+	echo $d;echo',';
+}
 
 ?>
